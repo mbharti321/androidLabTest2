@@ -62,8 +62,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="273dp"
-        android:layout_height="79dp"
+        android:layout_width="350dp"
+        android:layout_height="89dp"
         android:gravity="center"
         android:text="@string/food_menu"
         android:textColor="#EA7901"

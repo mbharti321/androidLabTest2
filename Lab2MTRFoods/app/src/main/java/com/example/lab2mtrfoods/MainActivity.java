@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
     public void BookFood(View view)
     {
         //Redirect activity to dashboard
-        redirectActivity(this,MainActivity.class);
+        redirectActivity(this,VegFood.class);
     }
 
     public static void redirectActivity(Activity activity, Class aclass)

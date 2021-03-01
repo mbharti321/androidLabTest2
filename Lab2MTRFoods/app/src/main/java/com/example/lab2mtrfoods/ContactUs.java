@@ -28,7 +28,7 @@ public class ContactUs extends AppCompatActivity {
             public void onClick(View v) {
 
                 Toast.makeText(ContactUs.this, "Website button clicked.", Toast.LENGTH_SHORT).show();
-                String url =  "http://newtreat.co.in/";
+                String url =  "https://www.mtrfoods.com/";
                 Uri webpage = Uri.parse(url);
 
                 Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
@@ -46,7 +46,7 @@ public class ContactUs extends AppCompatActivity {
             public void onClick(View v) {
 
                 Toast.makeText(ContactUs.this, "Call button clicked", Toast.LENGTH_SHORT).show();
-                String contactNum =  "9955262206";
+                String contactNum =  "18001037455";
 
                 Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + contactNum));
 
@@ -63,7 +63,7 @@ public class ContactUs extends AppCompatActivity {
             public void onClick(View v) {
 
                 Toast.makeText(ContactUs.this, "Location button clicked", Toast.LENGTH_SHORT).show();
-                String location =  "NewTreat.co";
+                String location =  "MTR Foods";
 
                 Uri addressUri = Uri.parse("geo:0,0?q=" + location);
                 Intent intent = new Intent(Intent.ACTION_VIEW, addressUri);
@@ -82,7 +82,7 @@ public class ContactUs extends AppCompatActivity {
 
                 Toast.makeText(ContactUs.this, "Mail button clicked", Toast.LENGTH_SHORT).show();
                 String subject = "Greetings from 4MCA!!";
-                String[] sendTo = new String[] {"naishar.shah31@gmail.com", "mbharti321@gmail.com"};
+                String[] sendTo = new String[] {"feedback@mtrfoods.com"};
                 String content = "Good Morning !, This is a test email sent through the APP";
 
                 Intent intent = new Intent(Intent.ACTION_SENDTO);
